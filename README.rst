@@ -10,7 +10,7 @@ interface to that website.
 :Author: Jack Rosenthal
 :Requires: Python 3.4 or greater, Beautiful Soup 4.4.0 or greater, Requests
 :License: MIT
-:Contributing: See ``CONTRIBUTING.rst``.
+:Contributing: See ``CONTRIBUTING.rst``
 
 Installing
 ----------
