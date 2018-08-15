@@ -217,7 +217,7 @@ def search_by_name(query, who=Who.ALL, departments=(Department.ALL, ), url=DIRSE
     r = requests.get(url, params=data)
     r.raise_for_status()
     if 'No records found' in r.text:
-        raise StopIteration
+        return
     soup = BeautifulSoup(r.text, "html.parser")
     if '/DirSearch/Home/detail/' in r.text:
         futures = []
