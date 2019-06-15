@@ -30,8 +30,8 @@ setup(
 
     url='https://github.com/jackrosenthal/csmdirsearch',
 
-    author='Jack Rosenthal',
-    author_email='jack@rosenth.al',
+    author='Jack Rosenthal, Samuel Warfield',
+    author_email='warfield@mines.edu',
 
     license='MIT',
 
@@ -50,9 +50,7 @@ setup(
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
 
     # What does your project relate to?
@@ -62,7 +60,7 @@ setup(
     # simple. Or you can use find_packages().
     packages=['csmdirsearch'],
 
-    python_requires='>=3.4, <4',
+    python_requires='>=3.7, <7',
 
     # List run-time dependencies here.  These will be installed by pip when
     # your project is installed. For an analysis of "install_requires" vs pip's
